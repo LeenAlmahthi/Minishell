@@ -2,7 +2,6 @@
 
 > *Empowering Seamless Command, Unleashing Innovation Daily*
 
-[![Last Commit](https://img.shields.io/github/last-commit/LeenAlmanthi/Minishell)](https://github.com/LeenAlmanthi/Minishell)
 [![Language](https://img.shields.io/badge/language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![42 School](https://img.shields.io/badge/42-School-000000?logo=42)](https://42.fr/)
 
@@ -89,7 +88,7 @@ Follow these steps to build and install Minishell:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/LeenAlmanthi/Minishell.git
+   git clone git@github.com:LeenAlmahthi/Minishell.git
    ```
 
 2. **Navigate to the project directory:**
