@@ -19,10 +19,8 @@ A lightweight, customizable UNIX shell implementation created as part of the 42 
 - [Usage](#usage)
   - [Built-in Commands](#built-in-commands)
   - [Examples](#examples)
-- [Testing](#testing)
 - [Technical Implementation](#technical-implementation)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [Resources](#resources)
 
 ---
