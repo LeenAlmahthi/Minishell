@@ -2,7 +2,7 @@
 
 > *Empowering Seamless Command, Unleashing Innovation Daily*
 
-[![Last Commit](https://img.shields.io/github/last-commit/LeenAlmanthI/Minishell)](https://github.com/LeenAlmanthI/Minishell)
+[![Last Commit](https://img.shields.io/github/last-commit/LeenAlmanthi/Minishell)](https://github.com/LeenAlmanthi/Minishell)
 [![Language](https://img.shields.io/badge/language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![42 School](https://img.shields.io/badge/42-School-000000?logo=42)](https://42.fr/)
 
@@ -25,8 +25,6 @@ A lightweight, customizable UNIX shell implementation created as part of the 42 
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [Resources](#resources)
-- [License](#license)
-- [Authors](#authors)
 
 ---
 
@@ -79,7 +77,7 @@ Implements essential shell commands with robust internal handling:
 This project requires the following:
 
 - **Programming Language**: C
-- **Compiler**: GCC or Clang
+- **Compiler**: CC
 - **Operating System**: Linux or macOS
 - **Libraries**: 
   - `readline` (for command-line editing)
@@ -91,7 +89,7 @@ Follow these steps to build and install Minishell:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/LeenAlmanthI/Minishell.git
+   git clone https://github.com/LeenAlmanthi/Minishell.git
    ```
 
 2. **Navigate to the project directory:**
@@ -169,32 +167,6 @@ minishell$ echo $?
 
 ---
 
-## 🧪 Testing
-
-Minishell uses a custom testing framework to ensure reliability.
-
-### Running Tests
-
-Execute the test suite with:
-
-```bash
-make test
-```
-
-### Test Coverage
-
-The test suite covers:
-- ✅ Command parsing and execution
-- ✅ Pipeline functionality
-- ✅ Redirections (input, output, append)
-- ✅ Heredoc implementation
-- ✅ Environment variable expansion
-- ✅ Built-in commands
-- ✅ Signal handling
-- ✅ Error conditions and edge cases
-- ✅ Memory leak detection
-
----
 
 ## 🔍 Technical Implementation
 
@@ -244,33 +216,18 @@ The test suite covers:
 
 ```
 Minishell/
-├── src/
-│   ├── parsing/        # Lexer and parser implementation
-│   ├── execution/      # Command execution logic
-│   ├── builtins/       # Built-in command implementations
-│   ├── expansion/      # Variable expansion
-│   ├── signals/        # Signal handling
-│   └── utils/          # Helper functions
+
+├── parsing/        # Lexer and parser implementation
+├── execution/      # Command execution logic
+├── builtins/       # Built-in command implementations
+├── expansion/      # Variable expansion
+├── signals/        # Signal handling
+├── heredoc/        # Heredoc functions
 ├── include/            # Header files
 ├── libft/              # Custom C library (if used)
-├── tests/              # Test files
 ├── Makefile            # Build configuration
 └── README.md           # This file
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve Minishell:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-Please ensure your code follows the 42 School norm and includes appropriate tests.
 
 ---
 
@@ -282,38 +239,11 @@ Helpful resources for understanding shell implementation:
 - [POSIX Shell Command Language](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html)
 - [Advanced Programming in the UNIX Environment](https://stevens.netmeister.org/631/)
 - [Writing Your Own Shell](https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/Book/Chapter5-WritingYourOwnShell.pdf)
-
----
-
-## 📄 License
-
-This project is part of the 42 School curriculum and follows their academic policies.
-
----
-
-## 👥 Authors
-
-- **Leen Almanthi** - [GitHub Profile](https://github.com/LeenAlmanthI)
-- *Add collaborators here*
-
----
-
-## 🎓 42 School Project
-
-This project is part of the 42 School common core curriculum. It aims to deepen understanding of:
-- Process creation and management
-- File descriptors and I/O redirection
-- Signal handling
-- Memory management
-- System calls
-
-**Grade**: *[Insert your grade here]*
+  
 
 ---
 
 <div align="center">
-
-**⭐ If you found this project helpful, please consider giving it a star! ⭐**
 
 Made with ❤️ at [42 School](https://42.fr/)
 

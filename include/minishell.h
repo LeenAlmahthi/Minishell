@@ -12,6 +12,18 @@
 
 #ifndef MINISHELL_H
 # define MINISHELL_H
+
+#define RESET "\033[0m"
+#define BOLD "\033[1m"
+#define DIM "\033[2m"
+#define CYAN "\033[36m"
+#define MAGENTA "\033[35m"
+#define YELLOW "\033[33m"
+#define BRIGHT_CYAN "\033[96m"
+#define BRIGHT_MAGENTA "\033[95m"
+#define BRIGHT_YELLOW "\033[93m"
+#define BRIGHT_WHITE "\033[97m"
+
 # include <ctype.h>
 # include <fcntl.h>
 # include <limits.h>
