@@ -88,7 +88,7 @@ Follow these steps to build and install Minishell:
 
 1. **Clone the repository:**
    ```bash
-   git clone git@github.com:LeenAlmahthi/Minishell.git
+   git clone git@github.com:LeenAlmahthi/Minishell.git Minishell
    ```
 
 2. **Navigate to the project directory:**
